@@ -91,7 +91,6 @@ async function onSearchFormSubmit(event) {
     showRequestError(error);
   } finally {
     hideLoader();
-    form.reset();
   }
 }
 
